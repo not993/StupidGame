@@ -175,7 +175,7 @@ while live == True:
             print("You twist the key in the doorknob. It comes unlocked with a faint 'click'.")
             ballroom.unlock()
         elif current_room == hallway or current_room == final_room:
-            print("Try as you might, the key doesn't twist. Seems like it takes a diffferent key.")
+            print("Try as you might, the key doesn't twist. Seems like it takes a different key.")
 
     elif command == "paperclip" and "paperclip" in inventory and current_room == hallway:
         print("You jiggle the paperclip around in the lock until it comes open with a satisfying 'click'.")
